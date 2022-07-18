@@ -1,0 +1,180 @@
+@font-face {
+    font-family: sw-semibold;
+    src: url("./fonts/Switzer-Semibold.otf");
+}
+
+@font-face {
+    font-family: sw-regular;
+    src: url("./fonts/Switzer-Regular.otf");
+}
+
+@font-face {
+    font-family: sw-bold;
+    src: url("./fonts/Switzer-Bold.otf");
+}
+
+body{
+    font-family: sw-regular !important;
+}
+
+/*CONTAINERS*/
+
+header{
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(240, 246, 255, 1) 51%, rgba(215, 232, 255, 1) 100%, rgba(0, 151, 181, 1) 100%);
+}
+
+.land-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.land-box img{
+    width: 400px;
+    margin-bottom: 0%;
+}
+
+section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.service-box{
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.do-box{
+   padding-top: 40px; 
+}
+
+.do-box p{
+    text-align: center;
+}
+
+.values{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.values img{
+    margin-right: 8px;
+    margin-bottom: 8px;
+    transition: all .2s ease-in-out;
+}
+
+.values img:hover{
+    transform: scale(1.03);
+}
+
+.service-img{
+    width: 450px;
+}
+
+.service-img img{
+    width: 100%;
+}
+
+/*TEXT*/
+
+.text-big{
+    font-family: sw-semibold;
+    font-size: 60px;
+    margin-bottom: 0%;
+}
+
+.g-text{
+    color: #8a8a8a;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.medium-text{
+    font-size: 36px;
+    font-family: sw-bold;
+    line-height: 40px;
+
+}
+
+a.cta{
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #0f62fe;
+    padding: 12px 20px;
+    border-radius: 50px;
+    color: #fff;
+    transition: all .2s ease-in-out;
+}
+
+a.cta:hover{
+    text-decoration: none;
+    background-color: #115ce7;
+    color: #fff;
+}
+
+img.wav{
+    margin-top: 30px;
+    width: 100%;
+    pointer-events: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+   
+    .land-box img{
+        width: 300px;
+    }
+
+    .text-big{
+        font-size: 24px;
+    }
+
+    img.wav{
+        width: 100%;
+    }
+
+    .values{
+        margin: 0%;
+    }
+
+    .values img{
+        margin-right: 0%;
+        width: 300px;
+    }
+
+
+    .service-box {
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-top: 40px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+
+    .service-img img{
+        width: 300px;
+    }
+
+    .medium-text{
+        font-size: 20px;
+    }
+
+    .g-text{
+        text-align: center;
+    }
+
+
+
+}
