@@ -142,6 +142,35 @@ img.wav{
 }
 
 
+.exclusive-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.client{
+    text-align: center;
+}
+
+.client .hours{
+    font-size: 80px;
+    font-family: sw-bold;
+    margin-bottom: 0%;
+}
+
+.client .g-text{
+    margin: 0%;
+    font-size: 18px;
+}
+
+.client img{
+    width: 200px;
+}
+
+
+
+
+
+
 
 
 
@@ -201,6 +230,23 @@ img.wav{
         width: 300px;
     }
    
+
+
+    .exclusive-content {
+        flex-direction: column;
+    }
+
+    .client{
+        margin-bottom: 30px;
+    }
+
+    .clients .hours{
+        font-size: 40px;
+    }
+
+    .client .g-text{
+        font-size: 16px;
+    }
 
 
 }
