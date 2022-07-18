@@ -56,6 +56,7 @@ section{
     padding-left: 11%;
     padding-right: 11%;
     padding-top: 50px;
+    padding-bottom: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;   
@@ -70,7 +71,8 @@ section{
 }
 
 .do-box{
-   padding-top: 40px; 
+   padding-top: 50px;
+   padding-bottom: 40px;
 }
 
 .do-box p{
@@ -145,6 +147,7 @@ img.wav{
 .exclusive-content{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 40px;
 }
 
 .client{
@@ -166,6 +169,15 @@ img.wav{
     width: 200px;
 }
 
+.still{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(215, 232, 255);
+    background: linear-gradient(0deg, rgba(215, 232, 255, 1) 0%, rgba(240, 246, 255, 1) 51%, rgba(255, 255, 255, 1) 100%);
+    padding-bottom: 60px;
+}
 
 
 
@@ -241,7 +253,7 @@ img.wav{
     }
 
     .clients .hours{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .client .g-text{
